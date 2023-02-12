@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-12T06:00:50.782Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5033638000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Register new user",
+        "description": "",
+        "id": "as-a-customer--i-want-to-register-new-account;register-new-user",
+        "after": [
+          {
+            "result": {
+              "duration": 141778000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 641667000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Homepage Amazone website",
+            "match": {
+              "location": "StepDefinitions.HomeSteps.homePageOfAmazonWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1311923000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to Account \u0026 List",
+            "match": {
+              "location": "StepDefinitions.HomeSteps.navigateToAccountList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2099838000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open register page from sign in page",
+            "match": {
+              "location": "StepDefinitions.SignInSteps.openRegisterPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164946000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Register page should be displayed",
+            "match": {
+              "location": "StepDefinitions.RegisterSteps.registryAndGiftingPageShouldBeDisplayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107068000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Input customer name with \"John Doe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John Doe\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.RegisterSteps.inputCustomerNameWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129307000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Input customer email with \"johndoe@mail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"johndoe@mail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.RegisterSteps.inputCustomerEmailWith(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142663000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Input customer password with \"P@55w0rd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"P@55w0rd\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.RegisterSteps.inputCustomerPasswordWith(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90451000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Input customer re-password with \"P@55w0rd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"P@55w0rd\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinitions.RegisterSteps.inputCustomerRePasswordWith(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1341989000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click continue button",
+            "match": {
+              "location": "StepDefinitions.RegisterSteps.clickContinurButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "As a customer, I want to register new account",
+    "description": "",
+    "id": "as-a-customer--i-want-to-register-new-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/RegisterNewUser.feature",
+    "tags": []
+  }
+]

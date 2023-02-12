@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.41">
+    <testcase classname="As a customer, I want to register new account" name="Register new user" time="11.271">
+        <system-out><![CDATA[Given Homepage Amazone website..............................................passed
+And Navigate to Account & List..............................................passed
+And Open register page from sign in page....................................passed
+And Register page should be displayed.......................................passed
+When Input customer name with "John Doe"....................................passed
+And Input customer email with "johndoe@mail.com"............................passed
+And Input customer password with "P@55w0rd".................................passed
+And Input customer re-password with "P@55w0rd"..............................passed
+And Click continue button...................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

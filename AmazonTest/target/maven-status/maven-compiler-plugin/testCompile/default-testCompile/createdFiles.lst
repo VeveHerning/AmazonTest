@@ -1,0 +1,10 @@
+Utilities/PropertiesReader.class
+StepDefinitions/SignInSteps.class
+Pages/SignInPage.class
+StepDefinitions/Hooks.class
+Pages/HomePage.class
+StepDefinitions/RegisterSteps.class
+Pages/RegisterPage.class
+TestRunner.class
+StepDefinitions/HomeSteps.class
+Utilities/BaseClass.class
